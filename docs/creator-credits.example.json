@@ -1,0 +1,24 @@
+[
+  {
+    "creator": "beeple",
+    "file": "beeple.jpg",
+    "subject": "Mike Winkelmann (Beeple)",
+    "licence": "CC-BY-SA-4.0",
+    "author": "Name of the photographer",
+    "attribution": "Photo: Name of the photographer, CC BY-SA 4.0",
+    "sourceUrl": "https://… page the photo was taken from",
+    "confirmedBy": "Your name",
+    "focus": "50% 30%"
+  },
+  {
+    "creator": "refik-anadol",
+    "file": "refik-anadol.jpg",
+    "subject": "Refik Anadol",
+    "licence": "PROPRIETARY",
+    "permission": "Supplied by Refik Anadol Studio by email, 2026-10-12, for use on Terra Ledger",
+    "author": "Studio photographer",
+    "sourceUrl": "",
+    "confirmedBy": "Your name",
+    "focus": "50% 25%"
+  }
+]

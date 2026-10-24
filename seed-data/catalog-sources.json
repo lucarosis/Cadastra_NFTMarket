@@ -1,0 +1,2041 @@
+{
+ "_about": "Sources for the Terra Ledger catalogue. scripts/catalog-fetch.mjs downloads or renders every image into public/assets/nft/ and writes public/assets/nft/catalog.csv; then run npm run catalog:import. Prices marked in tez are demo prices unless they come from terraledger.org.",
+ "site": [
+  {
+   "code": "TL-0611",
+   "title": "Cascade House",
+   "creator": "Terra Ledger",
+   "studio": "Terra Ledger Properties",
+   "category": "real-estate",
+   "subcategory": "certificates",
+   "price_usd": 500,
+   "editions": 8400,
+   "placed": 4200,
+   "status": "Live",
+   "image": {
+    "unsplash": "1600596542815-ffad4c1539a9"
+   },
+   "description": "A 5,100 sq ft desert-modern residence on a half-acre lot, held on a five-year corporate lease with annual CPI escalation. Scottsdale, Arizona · single-family residential · valuation US$4.20M · target yield 6.1% · US$500 per token.",
+   "licence": "UNSPLASH",
+   "source_url": "https://www.terraledger.org/properties",
+   "attribution": "Photo: Unsplash, as shown on terraledger.org. Illustrative; replace with photographs of the property."
+  },
+  {
+   "code": "TL-0614",
+   "title": "The Mercer Block",
+   "creator": "Terra Ledger",
+   "studio": "Terra Ledger Properties",
+   "category": "real-estate",
+   "subcategory": "certificates",
+   "price_usd": 500,
+   "editions": 57200,
+   "placed": 37320,
+   "status": "Live",
+   "image": {
+    "unsplash": "1582407947304-fd86f028f716"
+   },
+   "description": "Ground-floor retail with fourteen floors of office above, 91% leased with a 6.2-year weighted average lease term. Austin, Texas · mixed-use commercial · valuation US$28.60M · target yield 7.4% · US$500 per token.",
+   "licence": "UNSPLASH",
+   "source_url": "https://www.terraledger.org/properties",
+   "attribution": "Photo: Unsplash, as shown on terraledger.org. Illustrative; replace with photographs of the property."
+  },
+  {
+   "code": "TL-0618",
+   "title": "Harborline Lofts",
+   "creator": "Terra Ledger",
+   "studio": "Terra Ledger Properties",
+   "category": "real-estate",
+   "subcategory": "certificates",
+   "price_usd": 500,
+   "editions": 33500,
+   "placed": 26800,
+   "status": "Live",
+   "image": {
+    "unsplash": "1502005229762-cf1b2da7c5d6"
+   },
+   "description": "Forty-two converted warehouse loft units two blocks from the waterfront. Stabilised occupancy of 96% across the last eight quarters. Seattle, Washington · multifamily residential · valuation US$16.75M · target yield 5.8% · US$500 per token.",
+   "licence": "UNSPLASH",
+   "source_url": "https://www.terraledger.org/properties",
+   "attribution": "Photo: Unsplash, as shown on terraledger.org. Illustrative; replace with photographs of the property."
+  },
+  {
+   "code": "TL-0622",
+   "title": "Juniper Ridge",
+   "creator": "Terra Ledger",
+   "studio": "Terra Ledger Properties",
+   "category": "real-estate",
+   "subcategory": "certificates",
+   "price_usd": 500,
+   "editions": 6200,
+   "placed": 6200,
+   "status": "Live",
+   "image": {
+    "unsplash": "1568605114967-8130f3a36994"
+   },
+   "description": "A six-bedroom timber lodge operating on the short-term rental market. Seasonal revenue, distributed monthly. Park City, Utah · short-term rental · valuation US$3.10M · target yield 9.2% · fully subscribed.",
+   "licence": "UNSPLASH",
+   "source_url": "https://www.terraledger.org/properties",
+   "attribution": "Photo: Unsplash, as shown on terraledger.org. Illustrative; replace with photographs of the property."
+  },
+  {
+   "code": "TL-0626",
+   "title": "Olive Court",
+   "creator": "Terra Ledger",
+   "studio": "Terra Ledger Properties",
+   "category": "real-estate",
+   "subcategory": "certificates",
+   "price_usd": 500,
+   "editions": 11800,
+   "placed": 2950,
+   "status": "Live",
+   "image": {
+    "unsplash": "1580587771525-78b9dba3b914"
+   },
+   "description": "A recently completed residence in a supply-constrained submarket, acquired below replacement cost and leased to a relocation-services tenant. Coral Gables, Florida · single-family residential · valuation US$5.90M · target yield 6.6% · US$500 per token.",
+   "licence": "UNSPLASH",
+   "source_url": "https://www.terraledger.org/properties",
+   "attribution": "Photo: Unsplash, as shown on terraledger.org. Illustrative; replace with photographs of the property."
+  },
+  {
+   "code": "TL-0630",
+   "title": "The Foundry",
+   "creator": "Terra Ledger",
+   "studio": "Terra Ledger Properties",
+   "category": "real-estate",
+   "subcategory": "certificates",
+   "price_usd": 2500,
+   "editions": 1,
+   "placed": 0,
+   "status": "Draft",
+   "image": {
+    "unsplash": "1486406146926-c627a92ad1ab"
+   },
+   "description": "A former foundry building undergoing conversion to creative office. Currently in diligence; issuance deploys post-occupancy certificate. Brooklyn, New York · industrial conversion · valuation US$41.30M · opens Q1 · minimum US$2,500. Token supply and price to be set.",
+   "licence": "UNSPLASH",
+   "source_url": "https://www.terraledger.org/properties",
+   "attribution": "Photo: Unsplash, as shown on terraledger.org. Illustrative; replace with photographs of the property."
+  },
+  {
+   "code": "TL-0417",
+   "title": "Cadastral",
+   "creator": "Ilse Verhoeven",
+   "studio": "Terra Ledger Editions",
+   "category": "art",
+   "subcategory": "generative",
+   "price_tez": 180,
+   "editions": 256,
+   "placed": 184,
+   "status": "Live",
+   "image": {
+    "unsplash": "1744173688663-169e78515350"
+   },
+   "description": "Contour fields generated from the public survey data of the six counties we hold property in. Generative, digital-native.",
+   "licence": "UNSPLASH",
+   "source_url": "https://www.terraledger.org/art",
+   "attribution": "Image: Unsplash, as shown on terraledger.org. A stand-in for the original work; replace before sale."
+  },
+  {
+   "code": "TL-0418",
+   "title": "Ground Truth",
+   "creator": "Mateo Salinas",
+   "studio": "Terra Ledger Editions",
+   "category": "art",
+   "subcategory": "digital-painting",
+   "price_tez": 4200,
+   "editions": 12,
+   "placed": 5,
+   "status": "Live",
+   "image": {
+    "unsplash": "1541512416146-3cf58d6b27cc"
+   },
+   "description": "Oil and graphite on linen, 140 × 110 cm. A physical, custodied work held in bonded, climate-controlled storage in Austin.",
+   "licence": "UNSPLASH",
+   "source_url": "https://www.terraledger.org/art",
+   "attribution": "Image: Unsplash, as shown on terraledger.org. A stand-in for the original work; replace before sale."
+  },
+  {
+   "code": "TL-0421",
+   "title": "Refraction Study",
+   "creator": "Noor Haddad",
+   "studio": "Terra Ledger Editions",
+   "category": "art",
+   "subcategory": "3d-and-motion",
+   "price_tez": 310,
+   "editions": 128,
+   "placed": 96,
+   "status": "Live",
+   "image": {
+    "unsplash": "1680499661732-3cfae4690e1c"
+   },
+   "description": "Real-time WebGL, minted with its own renderer: interlocking translucent solids resolved live in the browser.",
+   "licence": "UNSPLASH",
+   "source_url": "https://www.terraledger.org/art",
+   "attribution": "Image: Unsplash, as shown on terraledger.org. A stand-in for the original work; replace before sale."
+  },
+  {
+   "code": "TL-0436",
+   "title": "Signal Decay",
+   "creator": "June Okafor",
+   "studio": "Terra Ledger Editions",
+   "category": "art",
+   "subcategory": "generative",
+   "price_tez": 95,
+   "editions": 512,
+   "placed": 512,
+   "status": "Live",
+   "image": {
+    "unsplash": "1549317336-206569e8475c"
+   },
+   "description": "Pen-plotter drawing, archived as vector. The opening collection; ships as a vector archive for personal plotting.",
+   "licence": "UNSPLASH",
+   "source_url": "https://www.terraledger.org/art",
+   "attribution": "Image: Unsplash, as shown on terraledger.org. A stand-in for the original work; replace before sale."
+  },
+  {
+   "code": "TL-0437",
+   "title": "Chroma Deed",
+   "creator": "Beatriz Lund",
+   "studio": "Terra Ledger Editions",
+   "category": "art",
+   "subcategory": "digital-painting",
+   "price_tez": 1650,
+   "editions": 24,
+   "placed": 17,
+   "status": "Live",
+   "image": {
+    "unsplash": "1524664399170-77e7118fdb6d"
+   },
+   "description": "Acrylic on board, 90 × 90 cm. Painted responses to twenty-four deeds drawn from the county records, with annual condition reporting.",
+   "licence": "UNSPLASH",
+   "source_url": "https://www.terraledger.org/art",
+   "attribution": "Image: Unsplash, as shown on terraledger.org. A stand-in for the original work; replace before sale."
+  },
+  {
+   "code": "TL-0438",
+   "title": "Ribbonwork",
+   "creator": "Kenji Alvarez",
+   "studio": "Terra Ledger Editions",
+   "category": "art",
+   "subcategory": "3d-and-motion",
+   "price_tez": 100,
+   "editions": 64,
+   "placed": 0,
+   "status": "Draft",
+   "image": {
+    "unsplash": "1746563947278-64005fe02020"
+   },
+   "description": "Motion work, 12-second loop, with renderer and frames held on-chain. Opens Q4; price to be set.",
+   "licence": "UNSPLASH",
+   "source_url": "https://www.terraledger.org/art",
+   "attribution": "Image: Unsplash, as shown on terraledger.org. A stand-in for the original work; replace before sale."
+  },
+  {
+   "code": "TL-0801",
+   "title": "Finn the Fox",
+   "creator": "Terra Ledger Games",
+   "studio": "Terra Ledger Games",
+   "category": "gaming",
+   "subcategory": "characters",
+   "price_tez": 120,
+   "editions": 500,
+   "placed": 0,
+   "status": "Live",
+   "image": {
+    "svg": "https://www.terraledger.org/games/fox.svg"
+   },
+   "description": "Dealer character from Twenty-One Showdown, the multiplayer blackjack-style card game with woodland characters: two to four players, four table levels, and a server that deals every card.",
+   "licence": "PROPRIETARY",
+   "source_url": "https://www.terraledger.org/games",
+   "attribution": null
+  },
+  {
+   "code": "TL-0802",
+   "title": "Olive the Owl",
+   "creator": "Terra Ledger Games",
+   "studio": "Terra Ledger Games",
+   "category": "gaming",
+   "subcategory": "characters",
+   "price_tez": 120,
+   "editions": 500,
+   "placed": 0,
+   "status": "Live",
+   "image": {
+    "svg": "https://www.terraledger.org/games/owl.svg"
+   },
+   "description": "Dealer character from Twenty-One Showdown, the multiplayer blackjack-style card game with woodland characters.",
+   "licence": "PROPRIETARY",
+   "source_url": "https://www.terraledger.org/games",
+   "attribution": null
+  },
+  {
+   "code": "TL-0803",
+   "title": "Bruno the Bear",
+   "creator": "Terra Ledger Games",
+   "studio": "Terra Ledger Games",
+   "category": "gaming",
+   "subcategory": "characters",
+   "price_tez": 120,
+   "editions": 500,
+   "placed": 0,
+   "status": "Live",
+   "image": {
+    "svg": "https://www.terraledger.org/games/bear.svg"
+   },
+   "description": "Dealer character from Twenty-One Showdown, the multiplayer blackjack-style card game with woodland characters.",
+   "licence": "PROPRIETARY",
+   "source_url": "https://www.terraledger.org/games",
+   "attribution": null
+  },
+  {
+   "code": "TL-0804",
+   "title": "Cleo the Cat",
+   "creator": "Terra Ledger Games",
+   "studio": "Terra Ledger Games",
+   "category": "gaming",
+   "subcategory": "characters",
+   "price_tez": 120,
+   "editions": 500,
+   "placed": 0,
+   "status": "Live",
+   "image": {
+    "svg": "https://www.terraledger.org/games/cat.svg"
+   },
+   "description": "Dealer character from Twenty-One Showdown, the multiplayer blackjack-style card game with woodland characters.",
+   "licence": "PROPRIETARY",
+   "source_url": "https://www.terraledger.org/games",
+   "attribution": null
+  },
+  {
+   "code": "TL-0805",
+   "title": "Mote",
+   "creator": "Terra Ledger Games",
+   "studio": "Terra Ledger Games",
+   "category": "gaming",
+   "subcategory": "characters",
+   "price_tez": 90,
+   "editions": 1000,
+   "placed": 0,
+   "status": "Live",
+   "image": {
+    "svg": "https://www.terraledger.org/games/mote.svg"
+   },
+   "description": "From Mote Mayhem: Lab Escape. Pick one of four Motes, collect eight Energy Cores and dodge security robots to escape Sector 07 within 90 seconds.",
+   "licence": "PROPRIETARY",
+   "source_url": "https://www.terraledger.org/games",
+   "attribution": null
+  },
+  {
+   "code": "TL-0806",
+   "title": "Elemental RPS Arena",
+   "creator": "Terra Ledger Games",
+   "studio": "Terra Ledger Games",
+   "category": "gaming",
+   "subcategory": "collectible-cards",
+   "price_tez": 240,
+   "editions": 250,
+   "placed": 0,
+   "status": "Live",
+   "image": {
+    "png": "https://www.terraledger.org/rsp.png"
+   },
+   "description": "Key art for Elemental RPS Arena, a rock-paper-scissors ladder with 15 collectible tiers, from the Copper Sigil (1 in 2) to the Eternal Singularity (1 in 32,768). Every win unlocks a rarer collectible: claim it, or risk it for the next tier.",
+   "licence": "PROPRIETARY",
+   "source_url": "https://www.terraledger.org/games",
+   "attribution": null
+  }
+ ],
+ "met": [
+  {
+   "id": 437998,
+   "category": "art",
+   "subcategory": "digital-painting",
+   "price_tez": 5935,
+   "editions": 25,
+   "meta": {
+    "title": "Olive Trees",
+    "artist": "Vincent van Gogh",
+    "culture": null,
+    "date": "1889",
+    "medium": "Oil on canvas",
+    "creditLine": "The Walter H. and Leonore Annenberg Collection, Gift of Walter H. and Leonore Annenberg, 1998, Bequest of Walter H. Annenberg, 2002",
+    "url": "https://www.metmuseum.org/art/collection/search/437998",
+    "image": "https://images.metmuseum.org/CRDImages/ep/original/DT1946.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1946.jpg"
+   }
+  },
+  {
+   "id": 436530,
+   "category": "art",
+   "subcategory": "digital-painting",
+   "price_tez": 4840,
+   "editions": 25,
+   "meta": {
+    "title": "Oleanders",
+    "artist": "Vincent van Gogh",
+    "culture": null,
+    "date": "1888",
+    "medium": "Oil on canvas",
+    "creditLine": "Gift of Mr. and Mrs. John L. Loeb, 1962",
+    "url": "https://www.metmuseum.org/art/collection/search/436530",
+    "image": "https://images.metmuseum.org/CRDImages/ep/original/DT1494.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1494.jpg"
+   }
+  },
+  {
+   "id": 436524,
+   "category": "art",
+   "subcategory": "digital-painting",
+   "price_tez": 8055,
+   "editions": 25,
+   "meta": {
+    "title": "Sunflowers",
+    "artist": "Vincent van Gogh",
+    "culture": null,
+    "date": "1887",
+    "medium": "Oil on canvas",
+    "creditLine": "Rogers Fund, 1949",
+    "url": "https://www.metmuseum.org/art/collection/search/436524",
+    "image": "https://images.metmuseum.org/CRDImages/ep/original/DP-41223-001.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-41223-001.jpg"
+   }
+  },
+  {
+   "id": 437881,
+   "category": "art",
+   "subcategory": "digital-painting",
+   "price_tez": 5665,
+   "editions": 25,
+   "meta": {
+    "title": "Young Woman with a Water Pitcher",
+    "artist": "Johannes Vermeer",
+    "culture": null,
+    "date": "ca. 1662",
+    "medium": "Oil on canvas",
+    "creditLine": "Marquand Collection, Gift of Henry G. Marquand, 1889",
+    "url": "https://www.metmuseum.org/art/collection/search/437881",
+    "image": "https://images.metmuseum.org/CRDImages/ep/original/DP353257.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP353257.jpg"
+   }
+  },
+  {
+   "id": 437879,
+   "category": "art",
+   "subcategory": "digital-painting",
+   "price_tez": 9200,
+   "editions": 25,
+   "meta": {
+    "title": "Study of a Young Woman",
+    "artist": "Johannes Vermeer",
+    "culture": null,
+    "date": "ca. 1665–67",
+    "medium": "Oil on canvas",
+    "creditLine": "Gift of Mr. and Mrs. Charles Wrightsman, in memory of Theodore Rousseau Jr., 1979",
+    "url": "https://www.metmuseum.org/art/collection/search/437879",
+    "image": "https://images.metmuseum.org/CRDImages/ep/original/DP353256.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP353256.jpg"
+   }
+  },
+  {
+   "id": 435868,
+   "category": "art",
+   "subcategory": "digital-painting",
+   "price_tez": 6455,
+   "editions": 25,
+   "meta": {
+    "title": "The Card Players",
+    "artist": "Paul Cézanne",
+    "culture": null,
+    "date": "1890–92",
+    "medium": "Oil on canvas",
+    "creditLine": "Bequest of Stephen C. Clark, 1960",
+    "url": "https://www.metmuseum.org/art/collection/search/435868",
+    "image": "https://images.metmuseum.org/CRDImages/ep/original/DP231550.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP231550.jpg"
+   }
+  },
+  {
+   "id": 435877,
+   "category": "art",
+   "subcategory": "digital-painting",
+   "price_tez": 5340,
+   "editions": 25,
+   "meta": {
+    "title": "Mont Sainte-Victoire and the Viaduct of the Arc River Valley",
+    "artist": "Paul Cézanne",
+    "culture": null,
+    "date": "1882–85",
+    "medium": "Oil on canvas",
+    "creditLine": "H. O. Havemeyer Collection, Bequest of Mrs. H. O. Havemeyer, 1929",
+    "url": "https://www.metmuseum.org/art/collection/search/435877",
+    "image": "https://images.metmuseum.org/CRDImages/ep/original/DP-20099-001.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-20099-001.jpg"
+   }
+  },
+  {
+   "id": 435882,
+   "category": "art",
+   "subcategory": "digital-painting",
+   "price_tez": 3895,
+   "editions": 25,
+   "meta": {
+    "title": "Still Life with Apples and a Pot of Primroses",
+    "artist": "Paul Cézanne",
+    "culture": null,
+    "date": "ca. 1890",
+    "medium": "Oil on canvas",
+    "creditLine": "Bequest of Sam A. Lewisohn, 1951",
+    "url": "https://www.metmuseum.org/art/collection/search/435882",
+    "image": "https://images.metmuseum.org/CRDImages/ep/original/DT47.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT47.jpg"
+   }
+  },
+  {
+   "id": 437430,
+   "category": "art",
+   "subcategory": "digital-painting",
+   "price_tez": 4100,
+   "editions": 25,
+   "meta": {
+    "title": "By the Seashore",
+    "artist": "Auguste Renoir",
+    "culture": null,
+    "date": "1883",
+    "medium": "Oil on canvas",
+    "creditLine": "H. O. Havemeyer Collection, Bequest of Mrs. H. O. Havemeyer, 1929",
+    "url": "https://www.metmuseum.org/art/collection/search/437430",
+    "image": "https://images.metmuseum.org/CRDImages/ep/original/DP-14936-039.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14936-039.jpg"
+   }
+  },
+  {
+   "id": 437853,
+   "category": "art",
+   "subcategory": "digital-painting",
+   "price_tez": 3385,
+   "editions": 25,
+   "meta": {
+    "title": "Venice, from the Porch of Madonna della Salute",
+    "artist": "Joseph Mallord William Turner",
+    "culture": null,
+    "date": "ca. 1835",
+    "medium": "Oil on canvas",
+    "creditLine": "Bequest of Cornelius Vanderbilt, 1899",
+    "url": "https://www.metmuseum.org/art/collection/search/437853",
+    "image": "https://images.metmuseum.org/CRDImages/ep/original/DP169568.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP169568.jpg"
+   }
+  },
+  {
+   "id": 436819,
+   "category": "art",
+   "subcategory": "digital-painting",
+   "price_tez": 4315,
+   "editions": 25,
+   "meta": {
+    "title": "Mäda Primavesi (1903–2000)",
+    "artist": "Gustav Klimt",
+    "culture": null,
+    "date": "1912–13",
+    "medium": "Oil on canvas",
+    "creditLine": "Gift of André and Clara Mertens, in memory of her mother, Jenny Pulitzer Steiner, 1964",
+    "url": "https://www.metmuseum.org/art/collection/search/436819",
+    "image": "https://images.metmuseum.org/CRDImages/ep/original/DP243354.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP243354.jpg"
+   }
+  },
+  {
+   "id": 436134,
+   "category": "art",
+   "subcategory": "digital-painting",
+   "price_tez": 9610,
+   "editions": 25,
+   "meta": {
+    "title": "Dancer Onstage",
+    "artist": "Edgar Degas",
+    "culture": null,
+    "date": "ca. 1877",
+    "medium": "Gouache over graphite underdrawing on thin wove commercially coated yellow paper, laid down on board",
+    "creditLine": "The Lesley and Emma Sheafer Collection, Bequest of Emma A. Sheafer, 1973",
+    "url": "https://www.metmuseum.org/art/collection/search/436134",
+    "image": "https://images.metmuseum.org/CRDImages/ep/original/DT1913.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1913.jpg"
+   }
+  },
+  {
+   "id": 267426,
+   "category": "art",
+   "subcategory": "photography",
+   "price_tez": 520,
+   "editions": 50,
+   "meta": {
+    "title": "Julia Jackson",
+    "artist": "Julia Margaret Cameron",
+    "culture": null,
+    "date": "1867",
+    "medium": "Albumen silver print from glass negative",
+    "creditLine": "Purchase, Joseph Pulitzer Bequest, 1996",
+    "url": "https://www.metmuseum.org/art/collection/search/267426",
+    "image": "https://images.metmuseum.org/CRDImages/ph/original/DT1121.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/ph/web-large/DT1121.jpg"
+   }
+  },
+  {
+   "id": 268690,
+   "category": "art",
+   "subcategory": "photography",
+   "price_tez": 415,
+   "editions": 50,
+   "meta": {
+    "title": "Charles Hay Cameron",
+    "artist": "Julia Margaret Cameron",
+    "culture": null,
+    "date": "1864",
+    "medium": "Albumen silver print from glass negative",
+    "creditLine": "Harris Brisbane Dick Fund, 1941",
+    "url": "https://www.metmuseum.org/art/collection/search/268690",
+    "image": "https://images.metmuseum.org/CRDImages/ph/original/DP295221.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/ph/web-large/DP295221.jpg"
+   }
+  },
+  {
+   "id": 268691,
+   "category": "art",
+   "subcategory": "photography",
+   "price_tez": 1240,
+   "editions": 50,
+   "meta": {
+    "title": "A Study",
+    "artist": "Julia Margaret Cameron",
+    "culture": null,
+    "date": "1864",
+    "medium": "Albumen silver print from glass negative",
+    "creditLine": "Harris Brisbane Dick Fund, 1941",
+    "url": "https://www.metmuseum.org/art/collection/search/268691",
+    "image": "https://images.metmuseum.org/CRDImages/ph/original/DP295222.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/ph/web-large/DP295222.jpg"
+   }
+  },
+  {
+   "id": 285467,
+   "category": "art",
+   "subcategory": "photography",
+   "price_tez": 740,
+   "editions": 50,
+   "meta": {
+    "title": "La Reine Hortense - Yacht de l'empereur, Havre",
+    "artist": "Gustave Le Gray",
+    "culture": null,
+    "date": "1856",
+    "medium": "Albumen silver print from glass negative",
+    "creditLine": "Gilman Collection, Purchase, Jennifer and Joseph Duke Gift, 2005",
+    "url": "https://www.metmuseum.org/art/collection/search/285467",
+    "image": "https://images.metmuseum.org/CRDImages/ph/original/DP150956.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/ph/web-large/DP150956.jpg"
+   }
+  },
+  {
+   "id": 285461,
+   "category": "art",
+   "subcategory": "photography",
+   "price_tez": 1205,
+   "editions": 50,
+   "meta": {
+    "title": "[View of the Seine, Paris]",
+    "artist": "Gustave Le Gray",
+    "culture": null,
+    "date": "1857",
+    "medium": "Albumen silver print from glass negative",
+    "creditLine": "Gilman Collection, Gift of The Howard Gilman Foundation, 2005",
+    "url": "https://www.metmuseum.org/art/collection/search/285461",
+    "image": "https://images.metmuseum.org/CRDImages/ph/original/DP150952.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/ph/web-large/DP150952.jpg"
+   }
+  },
+  {
+   "id": 283122,
+   "category": "art",
+   "subcategory": "photography",
+   "price_tez": 1230,
+   "editions": 50,
+   "meta": {
+    "title": "Chêne dans les rochers à Fontainebleau",
+    "artist": "Gustave Le Gray",
+    "culture": null,
+    "date": "1849–52",
+    "medium": "Salted paper print from waxed-paper negative",
+    "creditLine": "Gilman Collection, Purchase, The Horace W. Goldsmith Foundation Gift, through Joyce and Robert Menschel, 2005",
+    "url": "https://www.metmuseum.org/art/collection/search/283122",
+    "image": "https://images.metmuseum.org/CRDImages/ph/original/DP150971.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/ph/web-large/DP150971.jpg"
+   }
+  },
+  {
+   "id": 301885,
+   "category": "art",
+   "subcategory": "photography",
+   "price_tez": 845,
+   "editions": 50,
+   "meta": {
+    "title": "Étude de nuages",
+    "artist": "Gustave Le Gray",
+    "culture": null,
+    "date": "1856–57",
+    "medium": "Albumen silver print from glass negatives",
+    "creditLine": "Bequest of Maurice B. Sendak, 2012",
+    "url": "https://www.metmuseum.org/art/collection/search/301885",
+    "image": "https://images.metmuseum.org/CRDImages/ph/original/DP335712.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/ph/web-large/DP335712.jpg"
+   }
+  },
+  {
+   "id": 732755,
+   "category": "art",
+   "subcategory": "photography",
+   "price_tez": 920,
+   "editions": 50,
+   "meta": {
+    "title": "[Yosemite National Park, California]",
+    "artist": "Carleton E. Watkins",
+    "culture": null,
+    "date": "ca. 1878",
+    "medium": "Albumen silver print from glass negative",
+    "creditLine": "Gilman Collection, Gift of The Howard Gilman Foundation, 2005",
+    "url": "https://www.metmuseum.org/art/collection/search/732755",
+    "image": "https://images.metmuseum.org/CRDImages/ph/original/DP136859.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/ph/web-large/DP136859.jpg"
+   }
+  },
+  {
+   "id": 732757,
+   "category": "art",
+   "subcategory": "photography",
+   "price_tez": 405,
+   "editions": 50,
+   "meta": {
+    "title": "[Yosemite National Park, California]",
+    "artist": "Carleton E. Watkins",
+    "culture": null,
+    "date": "ca. 1878",
+    "medium": "Albumen silver print from glass negative",
+    "creditLine": "Gilman Collection, Gift of The Howard Gilman Foundation, 2005",
+    "url": "https://www.metmuseum.org/art/collection/search/732757",
+    "image": "https://images.metmuseum.org/CRDImages/ph/original/DP136857.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/ph/web-large/DP136857.jpg"
+   }
+  },
+  {
+   "id": 732761,
+   "category": "art",
+   "subcategory": "photography",
+   "price_tez": 450,
+   "editions": 50,
+   "meta": {
+    "title": "[Yosemite National Park, California]",
+    "artist": "Carleton E. Watkins",
+    "culture": null,
+    "date": "ca. 1878",
+    "medium": "Albumen silver print from glass negative",
+    "creditLine": "Gilman Collection, Gift of The Howard Gilman Foundation, 2005",
+    "url": "https://www.metmuseum.org/art/collection/search/732761",
+    "image": "https://images.metmuseum.org/CRDImages/ph/original/DP136853.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/ph/web-large/DP136853.jpg"
+   }
+  },
+  {
+   "id": 700109,
+   "category": "art",
+   "subcategory": "3d-and-motion",
+   "price_tez": 2690,
+   "editions": 40,
+   "meta": {
+    "title": "Attitudes of Animals in Motion",
+    "artist": "Eadweard Muybridge",
+    "culture": null,
+    "date": "1879, printed 1881",
+    "medium": "Albumen silver print",
+    "creditLine": "Gift of Joyce F. Menschel, 2015",
+    "url": "https://www.metmuseum.org/art/collection/search/700109",
+    "image": "https://images.metmuseum.org/CRDImages/ph/original/DP-2597-211.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/ph/web-large/DP-2597-211.jpg"
+   }
+  },
+  {
+   "id": 266431,
+   "category": "art",
+   "subcategory": "3d-and-motion",
+   "price_tez": 2780,
+   "editions": 40,
+   "meta": {
+    "title": "Animal Locomotion.  An Electro-Photographic Investigation of Consecutive Phases of Animal Movements.  Commenced 1872 - Completed 1885.  Volume XI, Wild Animals and Birds",
+    "artist": "Eadweard Muybridge",
+    "culture": null,
+    "date": "1880s",
+    "medium": "Photogravures",
+    "creditLine": "Rogers Fund, transferred from the Library",
+    "url": "https://www.metmuseum.org/art/collection/search/266431",
+    "image": "https://images.metmuseum.org/CRDImages/ph/original/DP275125.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/ph/web-large/DP275125.jpg"
+   }
+  },
+  {
+   "id": 191850,
+   "category": "art",
+   "subcategory": "3d-and-motion",
+   "price_tez": 2480,
+   "editions": 40,
+   "meta": {
+    "title": "The Head of Mrs. Russell",
+    "artist": "Auguste Rodin",
+    "culture": null,
+    "date": "modeled ca. 1890, cast before 1912",
+    "medium": "Cast plaster",
+    "creditLine": "Gift of Auguste Rodin, 1912",
+    "url": "https://www.metmuseum.org/art/collection/search/191850",
+    "image": "https://images.metmuseum.org/CRDImages/es/original/DP-13617-016.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/es/web-large/DP-13617-016.jpg"
+   }
+  },
+  {
+   "id": 191812,
+   "category": "art",
+   "subcategory": "3d-and-motion",
+   "price_tez": 2655,
+   "editions": 40,
+   "meta": {
+    "title": "Thomas Fortune Ryan",
+    "artist": "Auguste Rodin",
+    "culture": null,
+    "date": "modeled 1909",
+    "medium": "Bronze",
+    "creditLine": "Gift of Auguste Rodin, 1911",
+    "url": "https://www.metmuseum.org/art/collection/search/191812",
+    "image": "https://images.metmuseum.org/CRDImages/es/original/ES261.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/es/web-large/ES261.jpg"
+   }
+  },
+  {
+   "id": 187396,
+   "category": "art",
+   "subcategory": "3d-and-motion",
+   "price_tez": 1415,
+   "editions": 40,
+   "meta": {
+    "title": "The Vestal",
+    "artist": "Antonio Canova",
+    "culture": null,
+    "date": "probably ca. 1819–23",
+    "medium": "Marble",
+    "creditLine": "Gift of a number of friends through Miss Sarah Lazarus, 1891",
+    "url": "https://www.metmuseum.org/art/collection/search/187396",
+    "image": "https://images.metmuseum.org/CRDImages/es/original/ES4905.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/es/web-large/ES4905.jpg"
+   }
+  },
+  {
+   "id": 204759,
+   "category": "art",
+   "subcategory": "3d-and-motion",
+   "price_tez": 1940,
+   "editions": 40,
+   "meta": {
+    "title": "Head of Medusa",
+    "artist": "Antonio Canova",
+    "culture": null,
+    "date": "1806–7",
+    "medium": "Plaster cast, with modern metal rod",
+    "creditLine": "Fletcher Fund, 1967",
+    "url": "https://www.metmuseum.org/art/collection/search/204759",
+    "image": "https://images.metmuseum.org/CRDImages/es/original/DP-14050-001.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/es/web-large/DP-14050-001.jpg"
+   }
+  },
+  {
+   "id": 196476,
+   "category": "art",
+   "subcategory": "3d-and-motion",
+   "price_tez": 1155,
+   "editions": 40,
+   "meta": {
+    "title": "Second Arabesque",
+    "artist": "Edgar Degas",
+    "culture": null,
+    "date": "modeled before 1885, cast 1920",
+    "medium": "Bronze",
+    "creditLine": "H.O. Havemeyer Collection, Bequest of Mrs. H.O. Havemeyer, 1929",
+    "url": "https://www.metmuseum.org/art/collection/search/196476",
+    "image": "https://images.metmuseum.org/CRDImages/es/original/ES7538.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/es/web-large/ES7538.jpg"
+   }
+  },
+  {
+   "id": 196469,
+   "category": "art",
+   "subcategory": "3d-and-motion",
+   "price_tez": 2605,
+   "editions": 40,
+   "meta": {
+    "title": "Arabesque Devant",
+    "artist": "Edgar Degas",
+    "culture": null,
+    "date": "modeled probably ca. 1883–88, cast 1920",
+    "medium": "Bronze",
+    "creditLine": "H.O. Havemeyer Collection, Bequest of Mrs. H.O. Havemeyer, 1929",
+    "url": "https://www.metmuseum.org/art/collection/search/196469",
+    "image": "https://images.metmuseum.org/CRDImages/es/original/CT_17180.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/es/web-large/CT_17180.jpg"
+   }
+  },
+  {
+   "id": 366153,
+   "category": "real-estate",
+   "subcategory": "architecture",
+   "price_tez": 550,
+   "editions": 100,
+   "meta": {
+    "title": "Prison Scene",
+    "artist": "Francesco Piranesi",
+    "culture": null,
+    "date": "n.d.",
+    "medium": "Etching",
+    "creditLine": "Rogers Fund, 1962",
+    "url": "https://www.metmuseum.org/art/collection/search/366153",
+    "image": "https://images.metmuseum.org/CRDImages/dp/original/DP828295.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/dp/web-large/DP828295.jpg"
+   }
+  },
+  {
+   "id": 408026,
+   "category": "real-estate",
+   "subcategory": "architecture",
+   "price_tez": 815,
+   "editions": 100,
+   "meta": {
+    "title": "View from the street entering beneath the gateway to the city of Pompeii, with the foot paths and the shops, from \"Antiquités de Pompeïa, tome premier, Antiquités de la Grande Grèce...\" (Antiquities of Pompeii, volume one, Antiquities of Great Greece...), volume 1, plate 8",
+    "artist": "Francesco Piranesi",
+    "culture": null,
+    "date": "1804",
+    "medium": "Etching",
+    "creditLine": "Rogers Fund, transferred from the Library",
+    "url": "https://www.metmuseum.org/art/collection/search/408026",
+    "image": "https://images.metmuseum.org/CRDImages/dp/original/DP300530.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/dp/web-large/DP300530.jpg"
+   }
+  },
+  {
+   "id": 363375,
+   "category": "real-estate",
+   "subcategory": "architecture",
+   "price_tez": 505,
+   "editions": 100,
+   "meta": {
+    "title": "Vasi, candelabri, cippi, sarcofagi, tripodi, lucerne, ed ornamenti antichi disegnati ed incisi dal Cav. Gio. Batt. Piranesi, Vol. I (Vases, candelabra, grave stones, sarcophagi, tripods, lamps, and ornaments designed and etched by Cavalieri Giovanni Battista Piranesi)",
+    "artist": "Giovanni Battista Piranesi",
+    "culture": null,
+    "date": "1778–80",
+    "medium": "Etching",
+    "creditLine": "Rogers Fund, transferred from the Library",
+    "url": "https://www.metmuseum.org/art/collection/search/363375",
+    "image": "https://images.metmuseum.org/CRDImages/dp/original/DP104607.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/dp/web-large/DP104607.jpg"
+   }
+  },
+  {
+   "id": 268887,
+   "category": "real-estate",
+   "subcategory": "architecture",
+   "price_tez": 225,
+   "editions": 100,
+   "meta": {
+    "title": "[Salisbury Cathedral]",
+    "artist": "Unknown",
+    "culture": null,
+    "date": "1850s",
+    "medium": "Albumen silver print from paper negative",
+    "creditLine": "David Hunter McAlpin Fund, 1946",
+    "url": "https://www.metmuseum.org/art/collection/search/268887",
+    "image": "https://images.metmuseum.org/CRDImages/ph/original/DP115201.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/ph/web-large/DP115201.jpg"
+   }
+  },
+  {
+   "id": 285983,
+   "category": "real-estate",
+   "subcategory": "architecture",
+   "price_tez": 270,
+   "editions": 100,
+   "meta": {
+    "title": "Chartres Cathedral",
+    "artist": "Pierre Emile Joseph Pécarrère",
+    "culture": null,
+    "date": "1850–52",
+    "medium": "Salted paper print from paper negative",
+    "creditLine": "Gilman Collection, Museum Purchase, 2005",
+    "url": "https://www.metmuseum.org/art/collection/search/285983",
+    "image": "https://images.metmuseum.org/CRDImages/ph/original/DP259475.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/ph/web-large/DP259475.jpg"
+   }
+  },
+  {
+   "id": 629831,
+   "category": "real-estate",
+   "subcategory": "architecture",
+   "price_tez": 515,
+   "editions": 100,
+   "meta": {
+    "title": "Amalfi, Cathedral",
+    "artist": "Firmin-Eugène Le Dien",
+    "culture": null,
+    "date": "1853",
+    "medium": "Salted paper print from a waxed paper negative",
+    "creditLine": "Purchase, Alfred Stieglitz Society Gifts, 2013",
+    "url": "https://www.metmuseum.org/art/collection/search/629831",
+    "image": "https://images.metmuseum.org/CRDImages/ph/original/DP322073.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/ph/web-large/DP322073.jpg"
+   }
+  },
+  {
+   "id": 340292,
+   "category": "real-estate",
+   "subcategory": "architecture",
+   "price_tez": 380,
+   "editions": 100,
+   "meta": {
+    "title": "Architectural Drawing",
+    "artist": "Anonymous, Italian, 18th century",
+    "culture": null,
+    "date": "18th century",
+    "medium": "Pen and black ink, brush and green-gray wash, over black chalk, on beige laid paper",
+    "creditLine": "The Elisha Whittelsey Collection, The Elisha Whittelsey Fund, 1949",
+    "url": "https://www.metmuseum.org/art/collection/search/340292",
+    "image": "https://images.metmuseum.org/CRDImages/dp/original/DP803039.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/dp/web-large/DP803039.jpg"
+   }
+  },
+  {
+   "id": 389658,
+   "category": "real-estate",
+   "subcategory": "architecture",
+   "price_tez": 780,
+   "editions": 100,
+   "meta": {
+    "title": "Architectural Drawing for a Chapel",
+    "artist": "Anonymous, Italian, Roman, 18th century",
+    "culture": null,
+    "date": "18th century",
+    "medium": "Pen and brown ink, gray and pink washes",
+    "creditLine": "The Elisha Whittelsey Collection, The Elisha Whittelsey Fund, 1949",
+    "url": "https://www.metmuseum.org/art/collection/search/389658",
+    "image": "https://images.metmuseum.org/CRDImages/dp/original/DP803175.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/dp/web-large/DP803175.jpg"
+   }
+  },
+  {
+   "id": 343526,
+   "category": "real-estate",
+   "subcategory": "architecture",
+   "price_tez": 435,
+   "editions": 100,
+   "meta": {
+    "title": "Architectural Drawing for a Chapel and Hospital",
+    "artist": "de la Maire",
+    "culture": null,
+    "date": "ca. 1767",
+    "medium": "Etching counterproof and wash",
+    "creditLine": "The Elisha Whittelsey Collection, The Elisha Whittelsey Fund, 1958",
+    "url": "https://www.metmuseum.org/art/collection/search/343526",
+    "image": "https://images.metmuseum.org/CRDImages/dp/original/DP818894.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/dp/web-large/DP818894.jpg"
+   }
+  },
+  {
+   "id": 283107,
+   "category": "real-estate",
+   "subcategory": "architecture",
+   "price_tez": 545,
+   "editions": 100,
+   "meta": {
+    "title": "The Ramparts of Carcassonne",
+    "artist": "Gustave Le Gray",
+    "culture": null,
+    "date": "1851",
+    "medium": "Salted paper print from waxed paper negative",
+    "creditLine": "Gilman Collection, Purchase, Harriette and Noel Levine Gift, 2005",
+    "url": "https://www.metmuseum.org/art/collection/search/283107",
+    "image": "https://images.metmuseum.org/CRDImages/ph/original/DP150967.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/ph/web-large/DP150967.jpg"
+   }
+  },
+  {
+   "id": 441933,
+   "category": "real-estate",
+   "subcategory": "virtual-property",
+   "price_tez": 395,
+   "editions": 60,
+   "meta": {
+    "title": "Moonlight, Strandgade 30",
+    "artist": "Vilhelm Hammershøi",
+    "culture": null,
+    "date": "1900–1906",
+    "medium": "Oil on canvas",
+    "creditLine": "Purchase, European Paintings Funds, and Annette de la Renta Gift, 2012",
+    "url": "https://www.metmuseum.org/art/collection/search/441933",
+    "image": "https://images.metmuseum.org/CRDImages/ep/original/DP273105.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP273105.jpg"
+   }
+  },
+  {
+   "id": 436678,
+   "category": "real-estate",
+   "subcategory": "virtual-property",
+   "price_tez": 1550,
+   "editions": 60,
+   "meta": {
+    "title": "The Visit",
+    "artist": "Pieter de Hooch",
+    "culture": null,
+    "date": "ca. 1657",
+    "medium": "Oil on wood",
+    "creditLine": "H. O. Havemeyer Collection, Bequest of Mrs. H. O. Havemeyer, 1929",
+    "url": "https://www.metmuseum.org/art/collection/search/436678",
+    "image": "https://images.metmuseum.org/CRDImages/ep/original/DP145400.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145400.jpg"
+   }
+  },
+  {
+   "id": 436675,
+   "category": "real-estate",
+   "subcategory": "virtual-property",
+   "price_tez": 1205,
+   "editions": 60,
+   "meta": {
+    "title": "Interior with a Young Couple",
+    "artist": "Pieter de Hooch",
+    "culture": null,
+    "date": "probably ca. 1662–65",
+    "medium": "Oil on canvas",
+    "creditLine": "Bequest of Benjamin Altman, 1913",
+    "url": "https://www.metmuseum.org/art/collection/search/436675",
+    "image": "https://images.metmuseum.org/CRDImages/ep/original/DP145906.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145906.jpg"
+   }
+  },
+  {
+   "id": 436676,
+   "category": "real-estate",
+   "subcategory": "virtual-property",
+   "price_tez": 910,
+   "editions": 60,
+   "meta": {
+    "title": "Woman with a Water Pitcher, and a Man by a Bed",
+    "artist": "Pieter de Hooch",
+    "culture": null,
+    "date": "ca. 1667–70",
+    "medium": "Oil on canvas",
+    "creditLine": "The Friedsam Collection, Bequest of Michael Friedsam, 1931",
+    "url": "https://www.metmuseum.org/art/collection/search/436676",
+    "image": "https://images.metmuseum.org/CRDImages/ep/original/DP143173.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP143173.jpg"
+   }
+  },
+  {
+   "id": 437246,
+   "category": "real-estate",
+   "subcategory": "virtual-property",
+   "price_tez": 630,
+   "editions": 60,
+   "meta": {
+    "title": "Interior of Saint Peter's, Rome",
+    "artist": "Giovanni Paolo Panini",
+    "culture": null,
+    "date": "after 1754",
+    "medium": "Oil on canvas",
+    "creditLine": "Purchase, 1871",
+    "url": "https://www.metmuseum.org/art/collection/search/437246",
+    "image": "https://images.metmuseum.org/CRDImages/ep/original/DP123936.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP123936.jpg"
+   }
+  },
+  {
+   "id": 760942,
+   "category": "real-estate",
+   "subcategory": "virtual-property",
+   "price_tez": 1430,
+   "editions": 60,
+   "meta": {
+    "title": "The Yellow Room",
+    "artist": "James McNeill Whistler",
+    "culture": "American",
+    "date": "ca. 1883–84",
+    "medium": "Watercolor and gouache on paperboard",
+    "creditLine": "Marguerite and Frank A. Cosgrove Jr. Fund, 2017",
+    "url": "https://www.metmuseum.org/art/collection/search/760942",
+    "image": "https://images.metmuseum.org/CRDImages/ad/original/DP-15482-013.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-15482-013.jpg"
+   }
+  },
+  {
+   "id": 4934,
+   "category": "real-estate",
+   "subcategory": "virtual-property",
+   "price_tez": 1325,
+   "editions": 60,
+   "meta": {
+    "title": "Mantel from Drawing Room of the Craig House, Baltimore, Maryland",
+    "artist": null,
+    "culture": "American",
+    "date": "ca. 1810",
+    "medium": "Wood",
+    "creditLine": "Rogers Fund, 1918",
+    "url": "https://www.metmuseum.org/art/collection/search/4934",
+    "image": "https://images.metmuseum.org/CRDImages/ad/original/DT211258.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DT211258.jpg"
+   }
+  },
+  {
+   "id": 9790,
+   "category": "real-estate",
+   "subcategory": "virtual-property",
+   "price_tez": 610,
+   "editions": 60,
+   "meta": {
+    "title": "Wentworth House",
+    "artist": null,
+    "culture": "American",
+    "date": "1695–1700",
+    "medium": "Wood, oak, pine",
+    "creditLine": "Sage Fund, 1926",
+    "url": "https://www.metmuseum.org/art/collection/search/9790",
+    "image": "https://images.metmuseum.org/CRDImages/ad/original/DT239187.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DT239187.jpg"
+   }
+  },
+  {
+   "id": 34339,
+   "category": "gaming",
+   "subcategory": "in-game-items",
+   "price_tez": 410,
+   "editions": 500,
+   "meta": {
+    "title": "Helmet",
+    "artist": null,
+    "culture": "German",
+    "date": "ca. 1550 and ca. 1875",
+    "medium": "Steel, gold",
+    "creditLine": "Bashford Dean Memorial Collection, Bequest of Bashford Dean, 1928",
+    "url": "https://www.metmuseum.org/art/collection/search/34339",
+    "image": "https://images.metmuseum.org/CRDImages/aa/original/29.150.1a_123921_May2015.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/aa/web-large/29.150.1a_123921_May2015.jpg"
+   }
+  },
+  {
+   "id": 24667,
+   "category": "gaming",
+   "subcategory": "in-game-items",
+   "price_tez": 270,
+   "editions": 500,
+   "meta": {
+    "title": "Helmet",
+    "artist": null,
+    "culture": "German",
+    "date": "ca. 1535",
+    "medium": "Steel",
+    "creditLine": "Purchase, Joseph Pulitzer Bequest, 1938",
+    "url": "https://www.metmuseum.org/art/collection/search/24667",
+    "image": "https://images.metmuseum.org/CRDImages/aa/original/38.128.1_116242_May2015.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/aa/web-large/38.128.1_116242_May2015.jpg"
+   }
+  },
+  {
+   "id": 24027,
+   "category": "gaming",
+   "subcategory": "in-game-items",
+   "price_tez": 255,
+   "editions": 500,
+   "meta": {
+    "title": "Helmet",
+    "artist": null,
+    "culture": "Turkish",
+    "date": "late 16th century",
+    "medium": "Copper alloy (tombak), gold, leather, textile",
+    "creditLine": "Bequest of George C. Stone, 1935",
+    "url": "https://www.metmuseum.org/art/collection/search/24027",
+    "image": "https://images.metmuseum.org/CRDImages/aa/original/DP151792.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/aa/web-large/DP151792.jpg"
+   }
+  },
+  {
+   "id": 27458,
+   "category": "gaming",
+   "subcategory": "in-game-items",
+   "price_tez": 255,
+   "editions": 500,
+   "meta": {
+    "title": "Sword",
+    "artist": null,
+    "culture": "Western European (possibly Italian)",
+    "date": "ca. 1450",
+    "medium": "Steel, copper, wood, leather",
+    "creditLine": "Gift of William H. Riggs, 1913",
+    "url": "https://www.metmuseum.org/art/collection/search/27458",
+    "image": "https://images.metmuseum.org/CRDImages/aa/original/LC-14_25_1096-002.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/aa/web-large/LC-14_25_1096-002.jpg"
+   }
+  },
+  {
+   "id": 25415,
+   "category": "gaming",
+   "subcategory": "in-game-items",
+   "price_tez": 355,
+   "editions": 500,
+   "meta": {
+    "title": "Shield",
+    "artist": null,
+    "culture": "German, Landshut or Augsburg",
+    "date": "ca. 1560",
+    "medium": "Steel, gold",
+    "creditLine": "Rogers Fund, 1904",
+    "url": "https://www.metmuseum.org/art/collection/search/25415",
+    "image": "https://images.metmuseum.org/CRDImages/aa/original/DP273714.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/aa/web-large/DP273714.jpg"
+   }
+  },
+  {
+   "id": 31791,
+   "category": "gaming",
+   "subcategory": "in-game-items",
+   "price_tez": 400,
+   "editions": 500,
+   "meta": {
+    "title": "Shield",
+    "artist": null,
+    "culture": "Philippine, Moro",
+    "date": "18th–19th century",
+    "medium": "Wood, polychromy",
+    "creditLine": "Bequest of George C. Stone, 1935",
+    "url": "https://www.metmuseum.org/art/collection/search/31791",
+    "image": "https://images.metmuseum.org/CRDImages/aa/original/LC-36_25_616-001.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/aa/web-large/LC-36_25_616-001.jpg"
+   }
+  },
+  {
+   "id": 24693,
+   "category": "gaming",
+   "subcategory": "in-game-items",
+   "price_tez": 195,
+   "editions": 500,
+   "meta": {
+    "title": "Shield",
+    "artist": "Girolamo da Treviso",
+    "culture": "Italian, probably Bologna",
+    "date": "ca. 1535",
+    "medium": "Wood, linen, gesso, gold leaf, polychromy",
+    "creditLine": "Gift of Stephen V. Grancsay, 1942",
+    "url": "https://www.metmuseum.org/art/collection/search/24693",
+    "image": "https://images.metmuseum.org/CRDImages/aa/original/LC-42_50_16-030.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/aa/web-large/LC-42_50_16-030.jpg"
+   }
+  },
+  {
+   "id": 35937,
+   "category": "gaming",
+   "subcategory": "in-game-items",
+   "price_tez": 80,
+   "editions": 500,
+   "meta": {
+    "title": "Armor",
+    "artist": null,
+    "culture": "German, possibly Lower Saxony",
+    "date": "ca. 1540–50 and later",
+    "medium": "Steel, leather",
+    "creditLine": "Armor: Bashford Dean Memorial Collection, Gift of Helen Fahnestock Hubbard, in memory of her father, Harris C. Fahnestock, 1929; mail: Bashford Dean Memorial Collection, Funds from various donors, 1929",
+    "url": "https://www.metmuseum.org/art/collection/search/35937",
+    "image": "https://images.metmuseum.org/CRDImages/aa/original/DP-36206-003.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/aa/web-large/DP-36206-003.jpg"
+   }
+  },
+  {
+   "id": 31838,
+   "category": "gaming",
+   "subcategory": "in-game-items",
+   "price_tez": 320,
+   "editions": 500,
+   "meta": {
+    "title": "Dagger",
+    "artist": null,
+    "culture": "Indian, Deccan, possibly Hyderabad",
+    "date": "17th–18th century",
+    "medium": "Steel, nephrite, silver, gold",
+    "creditLine": "Bequest of George C. Stone, 1935",
+    "url": "https://www.metmuseum.org/art/collection/search/31838",
+    "image": "https://images.metmuseum.org/CRDImages/aa/original/DP157414.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/aa/web-large/DP157414.jpg"
+   }
+  },
+  {
+   "id": 647416,
+   "category": "gaming",
+   "subcategory": "in-game-items",
+   "price_tez": 265,
+   "editions": 500,
+   "meta": {
+    "title": "Dagger (Bichuwa)",
+    "artist": null,
+    "culture": "Indian, Thanjavur",
+    "date": "17th century",
+    "medium": "Steel, gold",
+    "creditLine": "Purchase, Arthur Ochs Sulzberger Gift, 2014",
+    "url": "https://www.metmuseum.org/art/collection/search/647416",
+    "image": "https://images.metmuseum.org/CRDImages/aa/original/DP332186.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/aa/web-large/DP332186.jpg"
+   }
+  },
+  {
+   "id": 931213,
+   "category": "gaming",
+   "subcategory": "characters",
+   "price_tez": 170,
+   "editions": 300,
+   "meta": {
+    "title": "Sumo Wrestlers Kagamiiwa Hamanosuke and Koyanagi Tsunekichi, with Judge Sakaigawa Namiemon and Referee Shikimori Kiichirō",
+    "artist": "Utagawa Kuniyoshi",
+    "culture": "Japan",
+    "date": "1847–52 (Kōka 4–Kaei 5)",
+    "medium": "Woodblock print (nishiki-e); ink and color on paper",
+    "creditLine": "Gift of the Pinkowitz family, 2025",
+    "url": "https://www.metmuseum.org/art/collection/search/931213",
+    "image": "https://images.metmuseum.org/CRDImages/as/original/DP-44456-001.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/as/web-large/DP-44456-001.jpg"
+   }
+  },
+  {
+   "id": 63376,
+   "category": "gaming",
+   "subcategory": "characters",
+   "price_tez": 190,
+   "editions": 300,
+   "meta": {
+    "title": "The Warrior Slaying the Giant White Hihi",
+    "artist": "Utagawa Yoshitora",
+    "culture": "Japan",
+    "date": "1859, 2nd month",
+    "medium": "Woodblock print; ink and color on paper",
+    "creditLine": "Purchase, Arnold Weinstein Gift, 2001",
+    "url": "https://www.metmuseum.org/art/collection/search/63376",
+    "image": "https://images.metmuseum.org/CRDImages/as/original/DP143378.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/as/web-large/DP143378.jpg"
+   }
+  },
+  {
+   "id": 37368,
+   "category": "gaming",
+   "subcategory": "characters",
+   "price_tez": 145,
+   "editions": 300,
+   "meta": {
+    "title": "Kabuki Actor Ichikawa Ebizō (Ichikawa Danjūrō V) in the play The Colored Reins of a Loving Wife (Koi nyōbō somewake tazuna)",
+    "artist": "Tōshūsai Sharaku",
+    "culture": "Japan",
+    "date": "5th month, 1794",
+    "medium": "Woodblock print; ink and color on paper with mica ground",
+    "creditLine": "Harris Brisbane Dick Fund and Rogers Fund, 1949",
+    "url": "https://www.metmuseum.org/art/collection/search/37368",
+    "image": "https://images.metmuseum.org/CRDImages/as/original/DP130194.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/as/web-large/DP130194.jpg"
+   }
+  },
+  {
+   "id": 37348,
+   "category": "gaming",
+   "subcategory": "characters",
+   "price_tez": 550,
+   "editions": 300,
+   "meta": {
+    "title": "The Actor Sawamura Sojuro III",
+    "artist": "Tōshūsai Sharaku",
+    "culture": "Japan",
+    "date": "1794–95",
+    "medium": "Woodblock print; ink and color on paper",
+    "creditLine": "The Howard Mansfield Collection, Purchase, Rogers Fund, 1936",
+    "url": "https://www.metmuseum.org/art/collection/search/37348",
+    "image": "https://images.metmuseum.org/CRDImages/as/original/DP130218.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/as/web-large/DP130218.jpg"
+   }
+  },
+  {
+   "id": 37350,
+   "category": "gaming",
+   "subcategory": "characters",
+   "price_tez": 300,
+   "editions": 300,
+   "meta": {
+    "title": "The Actor Ichikawa Yaozō III",
+    "artist": "Tōshūsai Sharaku",
+    "culture": "Japan",
+    "date": "ca. 1794",
+    "medium": "Woodblock print; ink and color on paper (hoso-e, Yellow ground)",
+    "creditLine": "The Howard Mansfield Collection, Purchase, Rogers Fund, 1936",
+    "url": "https://www.metmuseum.org/art/collection/search/37350",
+    "image": "https://images.metmuseum.org/CRDImages/as/original/DP130220.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/as/web-large/DP130220.jpg"
+   }
+  },
+  {
+   "id": 37351,
+   "category": "gaming",
+   "subcategory": "characters",
+   "price_tez": 180,
+   "editions": 300,
+   "meta": {
+    "title": "The Actor Nakayama Kumetaro II",
+    "artist": "Tōshūsai Sharaku",
+    "culture": "Japan",
+    "date": "1794",
+    "medium": "Left-hand sheet of a triptych of woodblock prints; ink and color on paper",
+    "creditLine": "The Howard Mansfield Collection, Purchase, Rogers Fund, 1936",
+    "url": "https://www.metmuseum.org/art/collection/search/37351",
+    "image": "https://images.metmuseum.org/CRDImages/as/original/DP130221.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/as/web-large/DP130221.jpg"
+   }
+  },
+  {
+   "id": 54465,
+   "category": "gaming",
+   "subcategory": "characters",
+   "price_tez": 570,
+   "editions": 300,
+   "meta": {
+    "title": "Kabuki Actor",
+    "artist": "Utagawa Toyoshige",
+    "culture": "Japan",
+    "date": null,
+    "medium": "Woodblock print (surimono); ink and color on paper",
+    "creditLine": "H. O. Havemeyer Collection, Bequest of Mrs. H. O. Havemeyer, 1929",
+    "url": "https://www.metmuseum.org/art/collection/search/54465",
+    "image": "https://images.metmuseum.org/CRDImages/as/original/DP135737.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/as/web-large/DP135737.jpg"
+   }
+  },
+  {
+   "id": 56610,
+   "category": "gaming",
+   "subcategory": "characters",
+   "price_tez": 230,
+   "editions": 300,
+   "meta": {
+    "title": "Kabuki Actor",
+    "artist": "Torii Kiyonobu I",
+    "culture": "Japan",
+    "date": "ca. 1708",
+    "medium": "Woodblock print; ink and color on paper",
+    "creditLine": "Harris Brisbane Dick Fund and Rogers Fund, 1949",
+    "url": "https://www.metmuseum.org/art/collection/search/56610",
+    "image": "https://images.metmuseum.org/CRDImages/as/original/DP146876.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/as/web-large/DP146876.jpg"
+   }
+  },
+  {
+   "id": 54487,
+   "category": "gaming",
+   "subcategory": "characters",
+   "price_tez": 435,
+   "editions": 300,
+   "meta": {
+    "title": "Actor as a Samurai Youth",
+    "artist": "Torii Kiyotada",
+    "culture": "Japan",
+    "date": "ca. 1735",
+    "medium": "Woodblock print; ink and color on paper (Urushi-e)",
+    "creditLine": "Gift of Estate of Samuel Isham, 1914",
+    "url": "https://www.metmuseum.org/art/collection/search/54487",
+    "image": "https://images.metmuseum.org/CRDImages/as/original/DP124254.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/as/web-large/DP124254.jpg"
+   }
+  },
+  {
+   "id": 36765,
+   "category": "gaming",
+   "subcategory": "characters",
+   "price_tez": 205,
+   "editions": 300,
+   "meta": {
+    "title": "The Fifth Ichikawa Danjuro as a Samurai",
+    "artist": "Katsukawa Shunkō",
+    "culture": "Japan",
+    "date": "ca. 1780–85",
+    "medium": "Woodblock print; ink and color on paper",
+    "creditLine": "Purchase, Joseph Pulitzer Bequest, 1918",
+    "url": "https://www.metmuseum.org/art/collection/search/36765",
+    "image": "https://images.metmuseum.org/CRDImages/as/original/DP141333.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/as/web-large/DP141333.jpg"
+   }
+  },
+  {
+   "id": 409092,
+   "category": "gaming",
+   "subcategory": "collectible-cards",
+   "price_tez": 25,
+   "editions": 1000,
+   "meta": {
+    "title": "Antelope, from the Quadrupeds series (N21) for Allen & Ginter Cigarettes",
+    "artist": "Allen & Ginter",
+    "culture": null,
+    "date": "1890",
+    "medium": "Commercial color lithograph",
+    "creditLine": "The Jefferson R. Burdick Collection, Gift of Jefferson R. Burdick",
+    "url": "https://www.metmuseum.org/art/collection/search/409092",
+    "image": "https://images.metmuseum.org/CRDImages/dp/original/DP835099.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/dp/web-large/DP835099.jpg"
+   }
+  },
+  {
+   "id": 409124,
+   "category": "gaming",
+   "subcategory": "collectible-cards",
+   "price_tez": 75,
+   "editions": 1000,
+   "meta": {
+    "title": "Bighorn, from the Quadrupeds series (N21) for Allen & Ginter Cigarettes",
+    "artist": "Allen & Ginter",
+    "culture": null,
+    "date": "1890",
+    "medium": "Commercial color lithograph",
+    "creditLine": "The Jefferson R. Burdick Collection, Gift of Jefferson R. Burdick",
+    "url": "https://www.metmuseum.org/art/collection/search/409124",
+    "image": "https://images.metmuseum.org/CRDImages/dp/original/DP835103.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/dp/web-large/DP835103.jpg"
+   }
+  },
+  {
+   "id": 404636,
+   "category": "gaming",
+   "subcategory": "collectible-cards",
+   "price_tez": 160,
+   "editions": 1000,
+   "meta": {
+    "title": "Donohue, from the Old Judge series (N172) for Old Judge Cigarettes",
+    "artist": "Goodwin & Company",
+    "culture": null,
+    "date": "1887–90",
+    "medium": "Albumen photograph",
+    "creditLine": "The Jefferson R. Burdick Collection, Gift of Jefferson R. Burdick",
+    "url": "https://www.metmuseum.org/art/collection/search/404636",
+    "image": "https://images.metmuseum.org/CRDImages/dp/original/DP846484.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/dp/web-large/DP846484.jpg"
+   }
+  },
+  {
+   "id": 401981,
+   "category": "gaming",
+   "subcategory": "collectible-cards",
+   "price_tez": 100,
+   "editions": 1000,
+   "meta": {
+    "title": "Dwyer, Pitcher, from the Old Judge series (N172) for Old Judge Cigarettes",
+    "artist": "Goodwin & Company",
+    "culture": null,
+    "date": "1888",
+    "medium": "Albumen photograph",
+    "creditLine": "The Jefferson R. Burdick Collection, Gift of Jefferson R. Burdick",
+    "url": "https://www.metmuseum.org/art/collection/search/401981",
+    "image": "https://images.metmuseum.org/CRDImages/dp/original/DP825403.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/dp/web-large/DP825403.jpg"
+   }
+  },
+  {
+   "id": 401406,
+   "category": "gaming",
+   "subcategory": "collectible-cards",
+   "price_tez": 155,
+   "editions": 1000,
+   "meta": {
+    "title": "Kelly, Boston, from the Old Judge series (N172) for Old Judge Cigarettes",
+    "artist": "Goodwin & Company",
+    "culture": null,
+    "date": "1889",
+    "medium": "Albumen photograph",
+    "creditLine": "The Jefferson R. Burdick Collection, Gift of Jefferson R. Burdick",
+    "url": "https://www.metmuseum.org/art/collection/search/401406",
+    "image": "https://images.metmuseum.org/CRDImages/dp/original/DP824618.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/dp/web-large/DP824618.jpg"
+   }
+  },
+  {
+   "id": 404637,
+   "category": "gaming",
+   "subcategory": "collectible-cards",
+   "price_tez": 125,
+   "editions": 1000,
+   "meta": {
+    "title": "F.L. Cushman, from the Old Judge series (N172) for Old Judge Cigarettes",
+    "artist": "Goodwin & Company",
+    "culture": null,
+    "date": "1887–90",
+    "medium": "Albumen photograph",
+    "creditLine": "The Jefferson R. Burdick Collection, Gift of Jefferson R. Burdick",
+    "url": "https://www.metmuseum.org/art/collection/search/404637",
+    "image": "https://images.metmuseum.org/CRDImages/dp/original/DP846485.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/dp/web-large/DP846485.jpg"
+   }
+  },
+  {
+   "id": 400638,
+   "category": "gaming",
+   "subcategory": "collectible-cards",
+   "price_tez": 95,
+   "editions": 1000,
+   "meta": {
+    "title": "Baseball Batter, from the Games and Sports series (N165) for Old Judge Cigarettes",
+    "artist": "Goodwin & Company",
+    "culture": null,
+    "date": "1889",
+    "medium": "Commercial color lithograph",
+    "creditLine": "The Jefferson R. Burdick Collection, Gift of Jefferson R. Burdick",
+    "url": "https://www.metmuseum.org/art/collection/search/400638",
+    "image": "https://images.metmuseum.org/CRDImages/dp/original/DP823009.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/dp/web-large/DP823009.jpg"
+   }
+  },
+  {
+   "id": 400636,
+   "category": "gaming",
+   "subcategory": "collectible-cards",
+   "price_tez": 160,
+   "editions": 1000,
+   "meta": {
+    "title": "Baseball Catcher, from the Games and Sports series (N165) for Old Judge Cigarettes",
+    "artist": "Goodwin & Company",
+    "culture": null,
+    "date": "1889",
+    "medium": "Commercial color lithograph",
+    "creditLine": "The Jefferson R. Burdick Collection, Gift of Jefferson R. Burdick",
+    "url": "https://www.metmuseum.org/art/collection/search/400636",
+    "image": "https://images.metmuseum.org/CRDImages/dp/original/DP823007.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/dp/web-large/DP823007.jpg"
+   }
+  },
+  {
+   "id": 402709,
+   "category": "gaming",
+   "subcategory": "collectible-cards",
+   "price_tez": 100,
+   "editions": 1000,
+   "meta": {
+    "title": "Allen, Shortstop, Pittsburgh, from the Old Judge series (N172) for Old Judge Cigarettes",
+    "artist": "Goodwin & Company",
+    "culture": null,
+    "date": "1889",
+    "medium": "Albumen photograph",
+    "creditLine": "The Jefferson R. Burdick Collection, Gift of Jefferson R. Burdick",
+    "url": "https://www.metmuseum.org/art/collection/search/402709",
+    "image": "https://images.metmuseum.org/CRDImages/dp/original/DP826565.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/dp/web-large/DP826565.jpg"
+   }
+  },
+  {
+   "id": 403611,
+   "category": "gaming",
+   "subcategory": "collectible-cards",
+   "price_tez": 155,
+   "editions": 1000,
+   "meta": {
+    "title": "Andrew J. \"Andy\" Cusick, 1st Base, Milwaukee, from the Old Judge series (N172) for Old Judge Cigarettes",
+    "artist": "Goodwin & Company",
+    "culture": null,
+    "date": "1888",
+    "medium": "Albumen photograph",
+    "creditLine": "The Jefferson R. Burdick Collection, Gift of Jefferson R. Burdick",
+    "url": "https://www.metmuseum.org/art/collection/search/403611",
+    "image": "https://images.metmuseum.org/CRDImages/dp/original/DP845935.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/dp/web-large/DP845935.jpg"
+   }
+  },
+  {
+   "id": 10150,
+   "category": "gaming",
+   "subcategory": "worlds-and-land",
+   "price_tez": 1225,
+   "editions": 40,
+   "meta": {
+    "title": "Merced River, Yosemite Valley",
+    "artist": "Albert Bierstadt",
+    "culture": "American",
+    "date": "1866",
+    "medium": "Oil on canvas",
+    "creditLine": "Gift of the sons of William Paton, 1909",
+    "url": "https://www.metmuseum.org/art/collection/search/10150",
+    "image": "https://images.metmuseum.org/CRDImages/ad/original/DT2961.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DT2961.jpg"
+   }
+  },
+  {
+   "id": 10149,
+   "category": "gaming",
+   "subcategory": "worlds-and-land",
+   "price_tez": 2060,
+   "editions": 40,
+   "meta": {
+    "title": "Canadian Rockies (Lake Louise)",
+    "artist": "Albert Bierstadt",
+    "culture": "American",
+    "date": "ca. 1889",
+    "medium": "Oil on paper mounted to board",
+    "creditLine": "Bequest of Ruth Alms Barnard, 1981",
+    "url": "https://www.metmuseum.org/art/collection/search/10149",
+    "image": "https://images.metmuseum.org/CRDImages/ad/original/DT7282.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DT7282.jpg"
+   }
+  },
+  {
+   "id": 10152,
+   "category": "gaming",
+   "subcategory": "worlds-and-land",
+   "price_tez": 3050,
+   "editions": 40,
+   "meta": {
+    "title": "Nevada Falls, Yosemite",
+    "artist": "Albert Bierstadt",
+    "culture": "American",
+    "date": "1872 or 1873",
+    "medium": "Oil on canvas",
+    "creditLine": "Gift of Mrs. J. Augustus Barnard, 1979",
+    "url": "https://www.metmuseum.org/art/collection/search/10152",
+    "image": "https://images.metmuseum.org/CRDImages/ad/original/DT9507.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DT9507.jpg"
+   }
+  },
+  {
+   "id": 10500,
+   "category": "gaming",
+   "subcategory": "worlds-and-land",
+   "price_tez": 2450,
+   "editions": 40,
+   "meta": {
+    "title": "A View near Tivoli (Morning)",
+    "artist": "Thomas Cole",
+    "culture": "American",
+    "date": "1832",
+    "medium": "Oil on canvas",
+    "creditLine": "Rogers Fund, 1903",
+    "url": "https://www.metmuseum.org/art/collection/search/10500",
+    "image": "https://images.metmuseum.org/CRDImages/ad/original/DT208249.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DT208249.jpg"
+   }
+  },
+  {
+   "id": 10501,
+   "category": "gaming",
+   "subcategory": "worlds-and-land",
+   "price_tez": 1615,
+   "editions": 40,
+   "meta": {
+    "title": "View on the Catskill—Early Autumn",
+    "artist": "Thomas Cole",
+    "culture": "American",
+    "date": "1836–37",
+    "medium": "Oil on canvas",
+    "creditLine": "Gift in memory of Jonathan Sturges by his children, 1895",
+    "url": "https://www.metmuseum.org/art/collection/search/10501",
+    "image": "https://images.metmuseum.org/CRDImages/ad/original/DT2639.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DT2639.jpg"
+   }
+  },
+  {
+   "id": 10497,
+   "category": "gaming",
+   "subcategory": "worlds-and-land",
+   "price_tez": 1460,
+   "editions": 40,
+   "meta": {
+    "title": "View from Mount Holyoke, Northampton, Massachusetts, after a Thunderstorm—The Oxbow",
+    "artist": "Thomas Cole",
+    "culture": "American",
+    "date": "1836",
+    "medium": "Oil on canvas",
+    "creditLine": "Gift of Mrs. Russell Sage, 1908",
+    "url": "https://www.metmuseum.org/art/collection/search/10497",
+    "image": "https://images.metmuseum.org/CRDImages/ad/original/DP-12550-001.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-12550-001.jpg"
+   }
+  },
+  {
+   "id": 10481,
+   "category": "gaming",
+   "subcategory": "worlds-and-land",
+   "price_tez": 845,
+   "editions": 40,
+   "meta": {
+    "title": "Heart of the Andes",
+    "artist": "Frederic Edwin Church",
+    "culture": "American",
+    "date": "1859",
+    "medium": "Oil on canvas",
+    "creditLine": "Bequest of Margaret E. Dows, 1909",
+    "url": "https://www.metmuseum.org/art/collection/search/10481",
+    "image": "https://images.metmuseum.org/CRDImages/ad/original/DT78.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DT78.jpg"
+   }
+  },
+  {
+   "id": 10482,
+   "category": "gaming",
+   "subcategory": "worlds-and-land",
+   "price_tez": 3505,
+   "editions": 40,
+   "meta": {
+    "title": "The Parthenon",
+    "artist": "Frederic Edwin Church",
+    "culture": "American",
+    "date": "1871",
+    "medium": "Oil on canvas",
+    "creditLine": "Bequest of Maria DeWitt Jesup, from the collection of her husband, Morris K. Jesup, 1914",
+    "url": "https://www.metmuseum.org/art/collection/search/10482",
+    "image": "https://images.metmuseum.org/CRDImages/ad/original/DT1540.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DT1540.jpg"
+   }
+  },
+  {
+   "id": 10480,
+   "category": "gaming",
+   "subcategory": "worlds-and-land",
+   "price_tez": 1680,
+   "editions": 40,
+   "meta": {
+    "title": "The Aegean Sea",
+    "artist": "Frederic Edwin Church",
+    "culture": "American",
+    "date": "ca. 1877",
+    "medium": "Oil on canvas",
+    "creditLine": "Bequest of Mrs. William H. Osborn, 1902",
+    "url": "https://www.metmuseum.org/art/collection/search/10480",
+    "image": "https://images.metmuseum.org/CRDImages/ad/original/ap02.23.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/ap02.23.jpg"
+   }
+  },
+  {
+   "id": 36492,
+   "category": "gaming",
+   "subcategory": "worlds-and-land",
+   "price_tez": 2140,
+   "editions": 40,
+   "meta": {
+    "title": "Storm below Mount Fuji (Sanka no haku u), from the series Thirty-six Views of Mount Fuji (Fugaku sanjūrokkei)",
+    "artist": "Katsushika Hokusai",
+    "culture": "Japan",
+    "date": "ca. 1830–32",
+    "medium": "Woodblock print; ink and color on paper",
+    "creditLine": "Rogers Fund, 1914",
+    "url": "https://www.metmuseum.org/art/collection/search/36492",
+    "image": "https://images.metmuseum.org/CRDImages/as/original/DP140976.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/as/web-large/DP140976.jpg"
+   }
+  },
+  {
+   "id": 55736,
+   "category": "gaming",
+   "subcategory": "worlds-and-land",
+   "price_tez": 1035,
+   "editions": 40,
+   "meta": {
+    "title": "South Wind, Clear Sky (Gaifū kaisei), also known as Red Fuji, from the series Thirty-six Views of Mount Fuji (Fugaku sanjūrokkei)",
+    "artist": "Katsushika Hokusai",
+    "culture": "Japan",
+    "date": "ca. 1830–32",
+    "medium": "Woodblock print; ink and color on paper",
+    "creditLine": "Henry L. Phillips Collection, Bequest of Henry L. Phillips, 1939",
+    "url": "https://www.metmuseum.org/art/collection/search/55736",
+    "image": "https://images.metmuseum.org/CRDImages/as/original/DP141053.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/as/web-large/DP141053.jpg"
+   }
+  },
+  {
+   "id": 36500,
+   "category": "gaming",
+   "subcategory": "worlds-and-land",
+   "price_tez": 2450,
+   "editions": 40,
+   "meta": {
+    "title": "Fujimigahara in Owari Province (Bishū Fujimigahara), from the series Thirty-six Views of Mount Fuji (Fugaku sanjūrokkei)",
+    "artist": "Katsushika Hokusai",
+    "culture": "Japan",
+    "date": "ca. 1830–32",
+    "medium": "Woodblock print; ink and color on paper",
+    "creditLine": "Rogers Fund, 1914",
+    "url": "https://www.metmuseum.org/art/collection/search/36500",
+    "image": "https://images.metmuseum.org/CRDImages/as/original/DP140982.jpg",
+    "imageSmall": "https://images.metmuseum.org/CRDImages/as/web-large/DP140982.jpg"
+   }
+  }
+ ],
+ "studio": [
+  {
+   "seed": 101,
+   "style": "flow",
+   "title": "Flow Ledger",
+   "price_tez": 420,
+   "editions": 128
+  },
+  {
+   "seed": 102,
+   "style": "contour",
+   "title": "Contour Bloom",
+   "price_tez": 360,
+   "editions": 128
+  },
+  {
+   "seed": 103,
+   "style": "truchet",
+   "title": "Parcel Weave",
+   "price_tez": 240,
+   "editions": 256
+  },
+  {
+   "seed": 104,
+   "style": "packing",
+   "title": "Packed Light",
+   "price_tez": 300,
+   "editions": 128
+  },
+  {
+   "seed": 105,
+   "style": "moire",
+   "title": "Moiré Deed",
+   "price_tez": 280,
+   "editions": 192
+  },
+  {
+   "seed": 106,
+   "style": "survey",
+   "title": "Survey Lines",
+   "price_tez": 380,
+   "editions": 128
+  },
+  {
+   "seed": 107,
+   "style": "subdivide",
+   "title": "Parcel Grid",
+   "price_tez": 520,
+   "editions": 64
+  },
+  {
+   "seed": 108,
+   "style": "bands",
+   "title": "Tidal Bands",
+   "price_tez": 260,
+   "editions": 256
+  },
+  {
+   "seed": 109,
+   "style": "orbits",
+   "title": "Orbit Study",
+   "price_tez": 340,
+   "editions": 128
+  },
+  {
+   "seed": 110,
+   "style": "rays",
+   "title": "Prism Rays",
+   "price_tez": 450,
+   "editions": 96
+  }
+ ]
+}
